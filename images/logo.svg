@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60">
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4aa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentSub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon mark: abstract "H" made of data/signal lines -->
+  <g transform="translate(4, 6)">
+    <!-- Left vertical bar -->
+    <rect x="0" y="0" width="4" height="48" rx="2" fill="url(#accent)"/>
+    <!-- Right vertical bar -->
+    <rect x="28" y="0" width="4" height="48" rx="2" fill="url(#accent)"/>
+    <!-- Cross bar with nodes -->
+    <rect x="4" y="22" width="24" height="4" rx="2" fill="url(#accent)"/>
+    <!-- Data nodes -->
+    <circle cx="2" cy="8" r="3" fill="url(#accent)" opacity="0.5"/>
+    <circle cx="30" cy="8" r="3" fill="url(#accent)" opacity="0.5"/>
+    <circle cx="16" cy="24" r="3.5" fill="url(#accent)"/>
+    <!-- Signal arcs (AI feel) -->
+    <path d="M8 10 Q16 2 24 10" stroke="url(#accent)" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M6 6 Q16 -4 26 6" stroke="url(#accent)" stroke-width="1" fill="none" opacity="0.2"/>
+    <!-- Bottom data dots -->
+    <circle cx="2" cy="42" r="2.5" fill="url(#accent)" opacity="0.4"/>
+    <circle cx="30" cy="42" r="2.5" fill="url(#accent)" opacity="0.4"/>
+    <circle cx="10" cy="36" r="1.5" fill="url(#accent)" opacity="0.25"/>
+    <circle cx="22" cy="36" r="1.5" fill="url(#accent)" opacity="0.25"/>
+  </g>
+
+  <!-- Text: HORAE -->
+  <text x="48" y="32" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="2">HORAE</text>
+
+  <!-- Text: GROUP -->
+  <text x="48" y="50" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="12" font-weight="500" fill="url(#accentSub)" letter-spacing="5">GROUP</text>
+</svg>
