@@ -115,6 +115,7 @@
   <!-- ========== HERO ========== -->
   <section class="hero" id="home">
     <div class="hero-grid"></div>
+    <canvas id="hero-particles"></canvas>
     <div class="container">
       <div class="hero-content">
         <div class="hero-badge">
@@ -152,9 +153,11 @@
         </div>
       </div>
     </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
   </section>
-
-  <!-- ========== SERVICES ========== -->
   <section class="services" id="services">
     <div class="container">
       <div class="fade-in">
@@ -165,7 +168,6 @@
       <div class="services-grid">
 
         <div class="service-card fade-in">
-          <img src="images/service-sales.jpg" alt="Sales Management Consulting" class="service-card-img">
           <div class="service-icon">📊</div>
           <h3>Sales Management Consulting</h3>
           <div class="service-text">
@@ -178,7 +180,6 @@
         </div>
 
         <div class="service-card fade-in">
-          <img src="images/service-training.jpg" alt="Training & Coaching" class="service-card-img">
           <div class="service-icon">🎓</div>
           <h3>Training & Coaching</h3>
           <div class="service-text">
@@ -191,7 +192,6 @@
         </div>
 
         <div class="service-card fade-in">
-          <img src="images/service-marketing.jpg" alt="Digital Marketing" class="service-card-img">
           <div class="service-icon">🎯</div>
           <h3>Digital Marketing</h3>
           <div class="service-text">
@@ -204,7 +204,6 @@
         </div>
 
         <div class="service-card fade-in">
-          <img src="images/service-realestate.jpg" alt="Real Estate Services" class="service-card-img">
           <div class="service-icon">🏗️</div>
           <h3>Real Estate Services</h3>
           <div class="service-text">
@@ -217,7 +216,6 @@
         </div>
 
         <div class="service-card fade-in">
-          <img src="images/service-events.jpg" alt="Event Management" class="service-card-img">
           <div class="service-icon">🎪</div>
           <h3>Event Management</h3>
           <div class="service-text">
@@ -230,7 +228,6 @@
         </div>
 
         <div class="service-card fade-in">
-          <img src="images/service-ai.jpg" alt="AI-Powered Sales Optimization" class="service-card-img">
           <div class="service-icon">🤖</div>
           <h3>AI-Powered Sales Optimization</h3>
           <div class="service-text">
@@ -469,7 +466,7 @@
           </div>
         </a>
         <a href="blog/how-to-increase-inbound-clients.html" class="blog-card fade-in">
-          <div class="blog-card-image"><img src="images/service-marketing.jpg" alt="Inbound Clients"></div>
+          <div class="blog-card-image"><img src="images/blog-inbound.jpg" alt="Increase Inbound Clients"></div>
           <div class="blog-card-body">
             <span class="tag">Inbound Strategy</span>
             <h3>How To Increase Your Inbound Clients</h3>
@@ -478,7 +475,7 @@
           </div>
         </a>
         <a href="blog/how-to-win-the-client.html" class="blog-card fade-in">
-          <div class="blog-card-image"><img src="images/service-sales.jpg" alt="Win the Client"></div>
+          <div class="blog-card-image"><img src="images/blog-win-client.jpg" alt="Win the Client"></div>
           <div class="blog-card-body">
             <span class="tag">Sales Technique</span>
             <h3>Know How to Win The Client</h3>
