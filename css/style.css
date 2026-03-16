@@ -129,8 +129,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-logo {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
   font-family: var(--font-heading);
   font-size: 1.4rem;
   font-weight: 700;
@@ -138,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-logo img {
-  height: 36px;
+  height: 50px;
   width: auto;
 }
 
@@ -714,7 +715,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
 
