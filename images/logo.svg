@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 70">
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00d4aa"/>
@@ -10,31 +10,38 @@
     </linearGradient>
   </defs>
 
-  <!-- Icon mark: abstract "H" made of data/signal lines -->
-  <g transform="translate(4, 6)">
-    <!-- Left vertical bar -->
-    <rect x="0" y="0" width="4" height="48" rx="2" fill="url(#accent)"/>
-    <!-- Right vertical bar -->
-    <rect x="28" y="0" width="4" height="48" rx="2" fill="url(#accent)"/>
-    <!-- Cross bar with nodes -->
-    <rect x="4" y="22" width="24" height="4" rx="2" fill="url(#accent)"/>
-    <!-- Data nodes -->
-    <circle cx="2" cy="8" r="3" fill="url(#accent)" opacity="0.5"/>
-    <circle cx="30" cy="8" r="3" fill="url(#accent)" opacity="0.5"/>
-    <circle cx="16" cy="24" r="3.5" fill="url(#accent)"/>
-    <!-- Signal arcs (AI feel) -->
-    <path d="M8 10 Q16 2 24 10" stroke="url(#accent)" stroke-width="1.5" fill="none" opacity="0.4"/>
-    <path d="M6 6 Q16 -4 26 6" stroke="url(#accent)" stroke-width="1" fill="none" opacity="0.2"/>
-    <!-- Bottom data dots -->
-    <circle cx="2" cy="42" r="2.5" fill="url(#accent)" opacity="0.4"/>
-    <circle cx="30" cy="42" r="2.5" fill="url(#accent)" opacity="0.4"/>
-    <circle cx="10" cy="36" r="1.5" fill="url(#accent)" opacity="0.25"/>
-    <circle cx="22" cy="36" r="1.5" fill="url(#accent)" opacity="0.25"/>
+  <!-- HG Mark: Two human figures forming H and G -->
+  <g transform="translate(4, 3)">
+    <!-- Figure 1 (H - standing person, left) -->
+    <!-- Head -->
+    <circle cx="16" cy="8" r="5.5" fill="url(#accent)"/>
+    <!-- Body - standing tall (forms left of H) -->
+    <path d="M16 14 L16 42" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Left arm reaching right (forms crossbar of H) -->
+    <path d="M16 24 L36 24" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M16 42 L8 56" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16 42 L24 56" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Figure 2 (G - bowing person, right) -->
+    <!-- Head -->
+    <circle cx="36" cy="8" r="5.5" fill="url(#accent)"/>
+    <!-- Body - slight bow (forms right of H and curve of G) -->
+    <path d="M36 14 L36 30" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Bowing torso curves into G shape -->
+    <path d="M36 30 Q36 48, 22 50" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- G crossbar (arm reaching inward) -->
+    <path d="M36 38 L28 38" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Standing leg -->
+    <path d="M36 30 L44 50" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Connection dot between figures (human connection) -->
+    <circle cx="26" cy="24" r="2" fill="url(#accent)" opacity="0.5"/>
   </g>
 
   <!-- Text: HORAE -->
-  <text x="48" y="32" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="2">HORAE</text>
+  <text x="62" y="34" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="2.5">HORAE</text>
 
   <!-- Text: GROUP -->
-  <text x="48" y="50" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="12" font-weight="500" fill="url(#accentSub)" letter-spacing="5">GROUP</text>
+  <text x="62" y="54" font-family="'Space Grotesk', 'Inter', Arial, sans-serif" font-size="13" font-weight="500" fill="url(#accentSub)" letter-spacing="6">GROUP</text>
 </svg>
