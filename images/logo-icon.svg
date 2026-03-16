@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
   <defs>
-    <linearGradient id="a" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#00d4aa"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#009e88"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00b89c"/>
+      <stop offset="100%" stop-color="#008873"/>
     </linearGradient>
   </defs>
-  <g transform="translate(6, 2)">
-    <circle cx="16" cy="7" r="5" fill="url(#a)"/>
-    <path d="M16 13 L16 40" stroke="url(#a)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M16 24 L36 24" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-    <path d="M16 40 L9 54" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-    <path d="M16 40 L23 54" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="36" cy="7" r="5" fill="url(#a)"/>
-    <path d="M36 13 L36 28" stroke="url(#a)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M36 28 Q36 46, 22 48" stroke="url(#a)" stroke-width="3" stroke-linecap="round" fill="none"/>
-    <path d="M36 36 L28 36" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M36 28 L44 48" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="26" cy="24" r="2" fill="url(#a)" opacity="0.4"/>
+  <g transform="translate(4, 8)">
+    <!-- H -->
+    <rect x="0" y="0" width="9" height="58" rx="2" fill="url(#g1)"/>
+    <rect x="24" y="0" width="9" height="58" rx="2" fill="url(#g1)"/>
+    <rect x="9" y="24" width="15" height="9" rx="1" fill="url(#g2)"/>
+    <!-- G -->
+    <path d="M46 9 C46 4, 50 0, 57 0 L67 0 C71 0, 73 2, 73 6 L73 9 L64 9 L64 7 C64 5.5, 63 4.5, 61 4.5 L57 4.5 C52 4.5, 50 7, 50 9" fill="url(#g1)"/>
+    <rect x="46" y="9" width="4.5" height="40" rx="1" fill="url(#g1)"/>
+    <path d="M46 49 L46 53 C46 57, 49 58, 53 58 L67 58 C71 58, 73 56, 73 52 L73 31 L63 31 L63 49 C63 51.5, 62 53.5, 59 53.5 L53 53.5 C51.5 53.5, 50 52, 50 49" fill="url(#g2)"/>
+    <rect x="63" y="27" width="10" height="4.5" rx="1" fill="url(#g1)"/>
+    <circle cx="68" cy="9" r="4.5" fill="url(#g1)" opacity="0.7"/>
   </g>
 </svg>
