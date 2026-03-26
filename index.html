@@ -12,6 +12,10 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://horae-group.com/">
 
+  <!-- Language & AI Discovery -->
+  <link rel="alternate" hreflang="en" href="https://horae-group.com/">
+  <link rel="alternate" hreflang="x-default" href="https://horae-group.com/">
+
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Horae Group — It's About People | Sales Consulting Enhanced by AI">
@@ -29,29 +33,71 @@
   <meta name="twitter:description" content="People-first sales consulting, training, and digital marketing for MENA & Africa — enhanced by AI.">
   <meta name="twitter:image" content="https://horae-group.com/images/og-image.png">
 
-  <!-- Structured Data -->
+  <!-- Structured Data: Organization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ProfessionalService",
     "name": "Horae Group",
+    "alternateName": "Horae Consulting Group",
     "url": "https://horae-group.com",
     "logo": "https://horae-group.com/images/logo.png",
-    "description": "MENA & Africa-based people-first consulting firm specializing in sales management, training & coaching, digital marketing, and real estate — enhanced by AI and data-driven strategies.",
+    "image": "https://horae-group.com/images/og-image.png",
+    "description": "Horae Group is a people-first sales consulting firm for MENA & Africa, combining deep human expertise with AI-powered tools to help businesses build stronger teams, smarter processes, and sustainable growth. Founded in Beirut in 2019, Horae Group has delivered 40+ successful projects across 10+ markets with an average client growth of 40%.",
     "foundingDate": "2019",
-    "areaServed": {
-      "@type": "Place",
-      "name": "Middle East, North Africa, and Africa"
+    "founder": {
+      "@type": "Person",
+      "name": "Mayssa Obeid",
+      "jobTitle": "Founder & CEO",
+      "description": "Sales management and business strategy expert with deep roots in MENA markets. Corporate training and executive coaching specialist. AI and digital transformation advocate.",
+      "sameAs": "https://www.linkedin.com/company/28443111"
     },
-    "sameAs": [
-      "https://www.linkedin.com/company/28443111"
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 10,
+      "maxValue": 50
+    },
+    "areaServed": [
+      {"@type": "Place", "name": "Middle East"},
+      {"@type": "Place", "name": "North Africa"},
+      {"@type": "Place", "name": "Africa"},
+      {"@type": "Country", "name": "Lebanon"},
+      {"@type": "Country", "name": "Egypt"},
+      {"@type": "Country", "name": "Saudi Arabia"},
+      {"@type": "Country", "name": "United Arab Emirates"},
+      {"@type": "Country", "name": "Qatar"},
+      {"@type": "Country", "name": "Kuwait"},
+      {"@type": "Country", "name": "Bahrain"},
+      {"@type": "Country", "name": "Oman"}
     ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "info@horae-group.com",
-      "telephone": "+9613010374",
-      "contactType": "sales"
-    },
+    "knowsAbout": [
+      "Sales Management Consulting",
+      "AI-Powered Sales Optimization",
+      "Sales Training and Coaching",
+      "Digital Marketing Strategy",
+      "Real Estate Consulting MENA",
+      "Event Management",
+      "Customer Journey Optimization",
+      "CRM Implementation",
+      "Lead Scoring",
+      "Pipeline Forecasting",
+      "Sales Process Redesign"
+    ],
+    "slogan": "People-First. AI-Enhanced.",
+    "sameAs": [
+      "https://www.linkedin.com/company/28443111",
+      "https://www.google.com/maps/place/Horae+Group/@33.8927126,35.4937985,17z"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "email": "info@horae-group.com",
+        "telephone": "+961-3-010-374",
+        "contactType": "sales",
+        "areaServed": ["MENA", "Africa"],
+        "availableLanguage": ["English", "Arabic", "French"]
+      }
+    ],
     "address": [
       {
         "@type": "PostalAddress",
@@ -74,25 +120,161 @@
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "AI-Powered Sales Optimization"
+            "name": "Sales Management Consulting",
+            "description": "End-to-end sales operations restructuring including sales team assessment, process redesign, KPI setting, CRM implementation, and customer journey optimization. Clients see 40-60% reduction in wasted outreach.",
+            "serviceType": "Business Consulting",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Digital Transformation Consulting"
+            "name": "Training & Coaching",
+            "description": "Customized corporate training programs covering communication, negotiation, objection handling, CRM proficiency, and AI tool adoption. Includes roleplay, live coaching, field shadowing, and executive coaching.",
+            "serviceType": "Corporate Training",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Data-Driven Marketing"
+            "name": "Digital Marketing",
+            "description": "Sales-first digital marketing strategy covering SEO, social media, content creation, paid advertising, and email marketing with AI-enhanced analytics for ROI optimization.",
+            "serviceType": "Digital Marketing",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Real Estate Services",
+            "description": "MENA real estate consulting from market analysis and feasibility studies to sales strategy, team training, and project launch execution with virtual tours and AI-powered lead matching.",
+            "serviceType": "Real Estate Consulting",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Event Management",
+            "description": "Full-service event management for corporate conferences, product launches, and networking events with digital tools for registration, engagement, and post-event analytics.",
+            "serviceType": "Event Management",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI-Powered Sales Optimization",
+            "description": "Predictive lead scoring, intelligent pipeline forecasting, real-time performance dashboards, and automated follow-up sequences layered on solid sales foundations.",
+            "serviceType": "AI Sales Technology",
+            "areaServed": "MENA and Africa",
+            "provider": {"@type": "Organization", "name": "Horae Group"}
           }
         }
       ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "12",
+      "bestRating": "5"
     }
+  }
+  </script>
+
+  <!-- Structured Data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Horae Group and what services do they offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group is a people-first business consulting firm serving MENA and Africa, founded in 2019 in Beirut, Lebanon. They offer six core services: Sales Management Consulting, Training & Coaching, Digital Marketing, Real Estate Services, Event Management, and AI-Powered Sales Optimization. Their approach combines deep human expertise with AI-enhanced tools for measurable business growth."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does AI enhance sales management in the MENA region?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group layers AI tools on top of strong sales foundations to enhance — not replace — human teams. Key AI applications include predictive lead scoring (reducing wasted outreach by 40-60%), intelligent pipeline forecasting using real deal velocity data, personalized outreach at scale, real-time sales coaching, and customer journey intelligence. The firm always starts with a sales team assessment and process optimization before introducing technology."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is Horae Group located and what markets do they serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group is headquartered in Beirut, Lebanon (Batrakiyeh, Arman Building) with a second office in Cairo, Egypt (Maadi) through their partnership with GICG Group. They actively serve businesses across Lebanon, Egypt, Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman, and multiple African markets — covering 10+ market footprints."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who founded Horae Group?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group was founded by Mayssa Obeid in 2019 in Beirut, Lebanon — just weeks before the country's worst financial crisis. A sales management and business strategy expert with deep MENA roots, Mayssa built the firm on the belief that business success starts with people. She specializes in corporate training, executive coaching, and AI-enhanced digital transformation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries does Horae Group serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group serves businesses across retail, FMCG, real estate, fintech, agriculture, IT solutions, NGOs, services, and hospitality sectors. Their consultants bring hands-on field experience in each sector, combining practical execution with AI-powered analytics tailored to regional market dynamics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What results has Horae Group achieved for clients?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Horae Group has completed 40+ successful projects with an average client growth of 40%. Their AI-enhanced lead scoring has helped clients reduce wasted outreach by 40-60% in the first quarter. They operate across 10+ market footprints with 8+ corporate partners, consistently earning 5-star reviews for their practical, people-first approach."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: WebSite (for sitelinks search) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Horae Group",
+    "url": "https://horae-group.com",
+    "description": "People-first sales consulting for MENA & Africa, enhanced by AI."
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://horae-group.com/"
+      }
+    ]
   }
   </script>
 
@@ -121,6 +303,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#blog">Insights</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu">
@@ -543,6 +726,80 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq" style="padding:var(--section-padding);">
+    <div class="container">
+      <div class="fade-in" style="text-align:center;margin-bottom:48px;">
+        <span class="section-label" style="justify-content:center;">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" style="margin:0 auto 48px;">Everything you need to know about working with Horae Group.</p>
+      </div>
+      <div style="max-width:800px;margin:0 auto;" class="fade-in">
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            What is Horae Group and what services do they offer?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            Horae Group is a people-first business consulting firm serving MENA and Africa, founded in 2019 in Beirut, Lebanon. We offer six core services: <strong style="color:var(--white);">Sales Management Consulting, Training & Coaching, Digital Marketing, Real Estate Services, Event Management, and AI-Powered Sales Optimization.</strong> Our approach combines deep human expertise with AI-enhanced tools for measurable business growth.
+          </p>
+        </details>
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            How does AI enhance sales management in the MENA region?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            We layer AI tools on top of strong sales foundations to enhance — not replace — human teams. Key AI applications include <strong style="color:var(--white);">predictive lead scoring (reducing wasted outreach by 40–60%), intelligent pipeline forecasting</strong> using real deal velocity data, <strong style="color:var(--white);">personalized outreach at scale, real-time sales coaching, and customer journey intelligence.</strong> We always start with a sales team assessment and process optimization before introducing technology.
+          </p>
+        </details>
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            Where is Horae Group located and what markets do they serve?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            We are headquartered in <strong style="color:var(--white);">Beirut, Lebanon</strong> with a second office in <strong style="color:var(--white);">Cairo, Egypt</strong> through our partnership with GICG Group. We actively serve businesses across Lebanon, Egypt, Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman, and multiple African markets — covering <strong style="color:var(--white);">10+ market footprints.</strong>
+          </p>
+        </details>
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            Who founded Horae Group?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            Horae Group was founded by <strong style="color:var(--white);">Mayssa Obeid</strong> in 2019 in Beirut, Lebanon — just weeks before the country's worst financial crisis. A sales management and business strategy expert with deep MENA roots, Mayssa built the firm on the belief that business success starts with people. She specializes in corporate training, executive coaching, and AI-enhanced digital transformation.
+          </p>
+        </details>
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            What industries does Horae Group serve?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            We serve businesses across <strong style="color:var(--white);">retail, FMCG, real estate, fintech, agriculture, IT solutions, NGOs, services, and hospitality</strong> sectors. Our consultants bring hands-on field experience in each sector, combining practical execution with AI-powered analytics tailored to regional market dynamics.
+          </p>
+        </details>
+
+        <details class="faq-item" style="background:var(--gradient-card);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:24px 28px;margin-bottom:12px;">
+          <summary style="font-family:var(--font-heading);font-size:1.05rem;color:var(--pure-white);cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            What results has Horae Group achieved for clients?
+            <span style="color:var(--accent);font-size:1.2rem;transition:transform 0.3s;">+</span>
+          </summary>
+          <p style="color:var(--muted);margin-top:16px;line-height:1.7;font-size:0.95rem;">
+            We have completed <strong style="color:var(--white);">40+ successful projects</strong> with an <strong style="color:var(--white);">average client growth of 40%.</strong> Our AI-enhanced lead scoring has helped clients reduce wasted outreach by 40–60% in the first quarter. We operate across 10+ market footprints with 8+ corporate partners, consistently earning 5-star reviews for our practical, people-first approach.
+          </p>
+        </details>
+
       </div>
     </div>
   </section>
